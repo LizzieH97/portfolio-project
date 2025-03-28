@@ -7,7 +7,23 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <section class="headerContainer">
+        <h4 class="headerContainer__name">Lizzie Hughes</h4>
+        <nav>
+          <ul class="headerContainer__navBar">
+            <li class="headerContainer__navBar--item">Home</li>
+            <li class="headerContainer__navBar--item">About</li>
+            <li class="headerContainer__navBar--item">Projects</li>
+            <li>
+              <button class="headerContainer__navBar--button">
+                Get in Touch
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
     <main>
       <section class="introContainer">
         <div class="introContainer__text">
@@ -18,14 +34,15 @@
             A Junior Software Developer based in the UK.
           </h1>
         </div>
+        <img src="./dev.png" class="introContainer__pic" />
       </section>
       <section class="aboutContainer">
-        <h2 class="aboutContainer__title">About Me</h2>
+        <h2 class="aboutContainer__text--header">About Me</h2>
         <img src="./aboutmepic.jpg" class="aboutContainer__img" />
-        <span class="aboutContainer__text">
+        <span class="aboutContainer__text--para-one">
           AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa
         </span>
-        <span class="aboutContainer__text"
+        <span class="aboutContainer__text--para-two"
           >BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB</span
         >
       </section>
@@ -113,114 +130,110 @@
       </section>
       <h2 class="techContainer__title">My Projects</h2>
     </main>
-    <section>
-      <ul class="projectContainer">
-        <li class="projectContainer__item">
-          <div class="project-box">
-            <img
-              src="./projectplaceholder.png"
-              alt="Project Preview"
-              class="project-box-img"
-            />
-          </div>
-          <p class="projectContainer__item--tech">REACT</p>
-          <h2 class="projectContainer__item--title">Client Project</h2>
-          <p class="projectContainer__item--text">
-            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-          </p>
+    <section class="projectContainer">
+      <ul class="projectContainer__card">
+        <li class="project-box">
+          <img
+            src="./projectplaceholder.png"
+            alt="Project Preview"
+            class="project-box-img"
+          />
+        </li>
+        <li class="projectContainer__card--tech">REACT</li>
+        <li class="projectContainer__card--title">Client Project</li>
+        <li class="projectContainer__card--text">
+          CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
         </li>
         <li>
           <a
-            ><button class="projectContainer__item--button">
+            ><button class="projectContainer__card--button">
               Code &lt;/&gt;
             </button></a
           >
           <a
-            ><button class="projectContainer__item--button">
+            ><button class="projectContainer__card--button">
               Preview &lt;/&gt
             </button></a
           >
         </li>
       </ul>
-      <ul class="projectContainer">
-        <li class="projectContainer__item">
-          <div class="project-box">
-            <img
-              src="./projectplaceholder.png"
-              alt="Project Preview"
-              class="project-box-img"
-            />
-          </div>
-          <p class="projectContainer__item--tech">REACT</p>
-          <h2 class="projectContainer__item--title">Client Project</h2>
-          <p class="projectContainer__item--text">
-            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-          </p>
+      <ul class="projectContainer__card">
+        <li class="projectContainer__card--box">
+          <img
+            src="./projectplaceholder.png"
+            alt="Project Preview"
+            class="project-box-img"
+          />
         </li>
+        <li class="projectContainer__card--tech">REACT</li>
+        <li class="projectContainer__card--title">Client Project</li>
+        <li class="projectContainer__card--text">
+          CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+        </li>
+
         <li>
           <a
-            ><button class="projectContainer__item--button">
+            ><button class="projectContainer__card--button">
               Code &lt;/&gt;
             </button></a
           >
           <a
-            ><button class="projectContainer__item--button">
+            ><button class="projectContainer__card--button">
               Preview &lt;/&gt
             </button></a
           >
         </li>
       </ul>
-      <ul class="projectContainer">
-        <li class="projectContainer__item">
-          <div class="project-box">
-            <img
-              src="./projectplaceholder.png"
-              alt="Project Preview"
-              class="project-box-img"
-            />
-          </div>
-          <p class="projectContainer__item--tech">REACT</p>
-          <h2 class="projectContainer__item--title">Client Project</h2>
-          <p class="projectContainer__item--text">
-            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-          </p>
+
+      <ul class="projectContainer__card">
+        <li class="projectContainer__card--box">
+          <img
+            src="./projectplaceholder.png"
+            alt="Project Preview"
+            class="project-box-img"
+          />
         </li>
+        <li class="projectContainer__card--tech">REACT</li>
+        <li class="projectContainer__card--title">Client Project</li>
+        <li class="projectContainer__card--text">
+          CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+        </li>
+
         <li>
           <a
-            ><button class="projectContainer__item--button">
+            ><button class="projectContainer__card--button">
               Code &lt;/&gt;
             </button></a
           >
           <a
-            ><button class="projectContainer__item--button">
+            ><button class="projectContainer__card--button">
               Preview &lt;/&gt
             </button></a
           >
         </li>
       </ul>
-      <ul class="projectContainer">
-        <li class="projectContainer__item">
-          <div class="project-box">
-            <img
-              src="./projectplaceholder.png"
-              alt="Project Preview"
-              class="project-box-img"
-            />
-          </div>
-          <p class="projectContainer__item--tech">REACT</p>
-          <h2 class="projectContainer__item--title">Client Project</h2>
-          <p class="projectContainer__item--text">
-            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-          </p>
+      <ul class="projectContainer__card">
+        <li class="projectContainer__card--box">
+          <img
+            src="./projectplaceholder.png"
+            alt="Project Preview"
+            class="project-box-img"
+          />
         </li>
+        <li class="projectContainer__card--tech">REACT</li>
+        <li class="projectContainer__card--title">Client Project</li>
+        <li class="projectContainer__card--text">
+          CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+        </li>
+
         <li>
           <a
-            ><button class="projectContainer__item--button">
+            ><button class="projectContainer__card--button">
               Code &lt;/&gt;
             </button></a
           >
           <a
-            ><button class="projectContainer__item--button">
+            ><button class="projectContainer__card--button">
               Preview &lt;/&gt
             </button></a
           >
